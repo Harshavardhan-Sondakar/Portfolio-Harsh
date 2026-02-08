@@ -1,0 +1,79 @@
+/* Typography */
+html {
+  --font-display: 700 var(--font-size-fluid-3) 'Space Grotesk', sans-serif;
+  --font-heading: 700 var(--font-size-fluid-2) 'Space Grotesk', sans-serif;
+  --font-subheading: 500 var(--font-size-fluid-1) 'Space Grotesk', sans-serif;
+  --font-body: 400 var(--font-size-fluid-0) 'Space Mono', monospace;
+  --font-caption: 400 var(--font-size-0) 'Space Mono', monospace;
+  --font-code: 400 var(--font-size-fluid-0) 'Space Mono', monospace;
+  
+  /* Brutalist Specifics */
+  --border-thick: 3px solid var(--color-neutral-12);
+  --shadow-hard: 4px 4px 0px 0px var(--color-neutral-12);
+  --shadow-hard-hover: 0px 0px 0px 0px var(--color-neutral-12);
+  --radius-brutal: 0px; /* Sharp corners */
+  --radius-neo: 4px; /* Slightly rounded for neo-brutalism */
+}
+
+html {
+  /* Neutral colors - High Contrast */
+  --color-neutral-1: #ffffff; /* Main bg */
+  --color-neutral-2: #f0f0f0; /* Secondary bg */
+  --color-neutral-3: #e0e0e0;
+  --color-neutral-4: #d0d0d0;
+  --color-neutral-5: #c0c0c0;
+  --color-neutral-6: #b0b0b0;
+  --color-neutral-7: #a0a0a0;
+  --color-neutral-8: #909090;
+  --color-neutral-9: #808080;
+  --color-neutral-10: #606060;
+  --color-neutral-11: #303030;
+  --color-neutral-12: #000000; /* Text */
+  --color-neutral-contrast: #ffffff;
+
+  /* Accent colors - NeoBrutalist Vibrant */
+  --color-accent-1: #fefce8;
+  --color-accent-2: #fef9c3;
+  --color-accent-3: #fef08a;
+  --color-accent-4: #fde047;
+  --color-accent-5: #facc15;
+  --color-accent-6: #eab308;
+  --color-accent-7: #ca8a04;
+  --color-accent-8: #a16207;
+  --color-accent-9: #FFE600; /* Bright Yellow */
+  --color-accent-10: #713f12;
+  --color-accent-11: #000000; /* Text on accent */
+  --color-accent-12: #422006;
+  --color-accent-contrast: #000000;
+
+  /* Secondary Accent (Pink/Purple) for variety - mapped to Error for now or custom */
+  /* Error colors - Sharp Red */
+  --color-error-1: #fff1f2;
+  --color-error-2: #ffe4e6;
+  --color-error-3: #fecdd3;
+  --color-error-4: #fda4af;
+  --color-error-5: #fb7185;
+  --color-error-6: #f43f5e;
+  --color-error-7: #e11d48;
+  --color-error-8: #be123c;
+  --color-error-9: #FF0055; /* Bright Red/Pink */
+  --color-error-10: #881337;
+  --color-error-11: #4c0519;
+  --color-error-12: #000000;
+  --color-error-contrast: #ffffff;
+
+  /* Success colors - Neon Green */
+  --color-success-1: #f0fdf4;
+  --color-success-2: #dcfce7;
+  --color-success-3: #bbf7d0;
+  --color-success-4: #86efac;
+  --color-success-5: #4ade80;
+  --color-success-6: #22c55e;
+  --color-success-7: #15803d;
+  --color-success-8: #166534;
+  --color-success-9: #00FF00; /* Neon Green */
+  --color-success-10: #14532d;
+  --color-success-11: #052e16;
+  --color-success-12: #000000;
+  --color-success-contrast: #000000;
+}
