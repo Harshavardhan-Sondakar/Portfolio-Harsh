@@ -1,26 +1,28 @@
-# Welcome to React Router!
+# Harshavardhan Sondakar - Portfolio Website
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A modern, responsive portfolio website showcasing my experience as a Software Engineer, built with cutting-edge web technologies.
 
-## Features
+## 🚀 About
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 CSS Modules for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+This is my personal portfolio website featuring:
+- **Professional Experience** at Comply as a Software Engineer
+- **Projects** including AI-powered recruitment systems, healthcare voice assistants, and eco-commerce platforms
+- **Technical Skills** across full-stack development (React, Angular, Node.js, Spring Boot, Python)
+- **Education & Certifications** from KLE Technological University
 
-### Styling & Theming
+## 🛠️ Tech Stack
 
-- This project uses CSS modules as the styling solution, Radix as the component library, and Open Props for styling tokens and theming
-- Project theme is defined in `app/styles/theme.css`, used as a design system for all UI building
-- Base design tokens are defined in `app/styles/tokens/<token-type>.css`, used as an immutable base design system for all the theme and all UI
+- **Framework:** React Router v7
+- **UI Components:** Custom component library with Radix UI primitives
+- **Styling:** CSS Modules with custom design tokens
+- **Build Tool:** Vite
+- **Language:** TypeScript
+- **State Management:** React Hooks
+- **Icons:** Lucide React
+- **Animations:** Embla Carousel, Vaul
+- **Forms:** React Hook Form with Zod validation
 
-## Getting Started
-
-### Installation
+## 📦 Installation
 
 Install the dependencies:
 
@@ -28,7 +30,7 @@ Install the dependencies:
 npm install
 ```
 
-### Development
+## 🔧 Development
 
 Start the development server with HMR:
 
@@ -38,7 +40,7 @@ npm run dev
 
 Your application will be available at `http://localhost:5173`.
 
-## Building for Production
+## 🏗️ Building for Production
 
 Create a production build:
 
@@ -46,18 +48,54 @@ Create a production build:
 npm run build
 ```
 
-## Deployment
+Run the production build locally:
 
-### DIY Deployment
+```bash
+npm start
+```
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+## 📁 Project Structure
 
-Make sure to deploy the output of `npm run build`
+```
+├── app/
+│   ├── components/ui/      # Reusable UI components (Button, Card, Dialog, etc.)
+│   ├── data/               # Portfolio data and content
+│   ├── hooks/              # Custom React hooks
+│   ├── routes/             # Page components
+│   └── styles/             # Global styles and design tokens
+├── prompts/                # Development guidelines and patterns
+└── public/                 # Static assets
+```
+
+## 🎨 Features
+
+- **Modern Design System:** Custom CSS tokens for colors, typography, spacing, and animations
+- **Responsive Layout:** Mobile-first design that works across all devices
+- **Accessible Components:** Built with accessibility in mind using Radix UI primitives
+- **Type-Safe:** Full TypeScript support for better developer experience
+- **Performance Optimized:** Fast loading times with Vite and React Router
+
+## 🌐 Deployment
+
+The built-in app server is production-ready. Deploy the output of `npm run build`:
 
 ```
 ├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
 ├── build/
 │   ├── client/    # Static assets
 │   └── server/    # Server-side code
 ```
+
+## 📧 Contact
+
+- **Email:** hmsondakar@gmail.com
+- **LinkedIn:** [linkedin.com/in/harshavardhan-sondakar](https://linkedin.com/in/harshavardhan-sondakar)
+- **GitHub:** [github.com/Harshavardhan-Sondakar](https://github.com/Harshavardhan-Sondakar)
+
+## 📄 License
+
+This project is open source and available for reference. Please credit if you use any part of the code.
+
+---
+
+Built with ❤️ by Harshavardhan Sondakar
