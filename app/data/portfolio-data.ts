@@ -15,7 +15,6 @@ export interface Project {
 export interface Education {
   degree: string;
   institution: string;
-  score: string;
   year: string;
 }
 
@@ -144,19 +143,16 @@ export const portfolioData: PortfolioData = {
     {
       degree: "Bachelor of Engineering in Computer Science And Engineering",
       institution: "KLE Technological University's Dr. M. S. Sheshgiri Campus, Belagavi",
-      score: "CGPA: 7.11",
       year: "2025",
     },
     {
       degree: "Pre-University College",
       institution: "Govindram Seksaria Science College, Belagavi",
-      score: "Percentage: 71%",
       year: "2021",
     },
     {
       degree: "High School",
       institution: "KLS English Medium High School, Belagavi",
-      score: "Percentage: 76%",
       year: "2019",
     },
   ],
