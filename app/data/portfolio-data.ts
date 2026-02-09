@@ -78,11 +78,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       category: "Tools",
-      skills: ["Git", "GitHub", "VS Code", "IntelliJ", "Postman"],
-    },
-    {
-      category: "Soft Skills",
-      skills: ["Leadership", "Teamwork", "Self-Motivation", "Adaptability"],
+      skills: ["Git", "GitHub"],
     },
   ],
   experience: [

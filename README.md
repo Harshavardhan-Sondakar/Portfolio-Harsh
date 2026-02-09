@@ -5,10 +5,9 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 ## 🚀 About
 
 This is my personal portfolio website featuring:
-- **Professional Experience** at Comply as a Software Engineer
-- **Projects** including AI-powered recruitment systems, healthcare voice assistants, and eco-commerce platforms
+- **Projects** including AI-powered recruitment systems, healthcare voice assistants, eco-commerce platforms and many more
 - **Technical Skills** across full-stack development (React, Angular, Node.js, Spring Boot, Python)
-- **Education & Certifications** from KLE Technological University
+- **Education** from KLE Technological University
 
 ## 🛠️ Tech Stack
 
